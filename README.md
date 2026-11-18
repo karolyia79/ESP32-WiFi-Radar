@@ -1,3 +1,8 @@
+> [!IMPORTANT]
+> **Manual Update Required from v0.1.8b and Earlier!**
+> Due to repository restructuring and updated OTA endpoints (`ESP32-WiFi-Radar`), online auto-update will **not** work from `v0.1.8b` or older firmware versions.
+> Please download `firmware.bin` below and upload it once manually via **WebUI → System → Actions → Manual Update**. All your saved settings (Wi-Fi, MQTT, Mesh, 3D Matrix) in EEPROM will be preserved. Starting from `v0.1.9b`, one-click online updates will work seamlessly.
+
 # ESP32 WiFi Passive Radar
 
 Modular, **ESP-NOW Mesh-capable** passive Wi-Fi presence and motion detection system with 3D spatial trilateration and native **Home Assistant MQTT Auto-Discovery** integration.
